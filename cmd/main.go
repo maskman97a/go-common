@@ -1,6 +1,6 @@
 package main
 
-import "go-common/config"
+import "github.com/maskman97a/go-common/config"
 
 func main() {
 	app := config.NewApp()

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"go-common/config/http_server"
+	"github.com/maskman97a/go-common/config/http_server"
 	"log"
 	"net/http"
 	"time"
