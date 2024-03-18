@@ -3,8 +3,8 @@ package middleware
 import (
 	"bytes"
 	"github.com/gin-gonic/gin"
+	"github.com/maskman97a/go-common/common"
 	"github.com/sirupsen/logrus"
-	"go-common/common"
 	"io"
 	"net/http"
 	"strings"

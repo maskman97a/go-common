@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 	"github.com/gin-gonic/gin"
+	"github.com/maskman97a/go-common/config/router"
+	"github.com/maskman97a/go-common/pkg/utils"
 	"github.com/sirupsen/logrus"
-	"go-common/config/router"
-	"go-common/pkg/utils"
 	"net/http"
 	"time"
 )
