@@ -42,5 +42,5 @@ func ConfigAppEnv() Environment {
 	viper.OnConfigChange(func(e fsnotify.Event) {
 		fmt.Println("Config file changed:", e.Name)
 	})
-	return Environment{ServerPort: viper.GetUint("SERVER_PORT"), ContextPath: viper.GetString("context-path")}
+	return Environment{ServerPort: viper.GetUint("SERVER_PORT"), ContextPath: viper.GetString("CONTEXT_PATH")}
 }
